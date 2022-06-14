@@ -12,14 +12,14 @@ function App() {
     <AppProvider>
       <div className="container">
         <h1 className="mt-3">My Budget Planner</h1>
-        <div className="row mt-3">
-          <div className="col-sm">
+        <div className="list">
+          <div className="listItem">
             <Budget />
           </div>
-          <div className="col-sm">
+          <div className="listItem">
             <Remaining />
           </div>
-          <div className="col-sm">
+          <div className="listItem">
             <ExpenseTotal />
           </div>
         </div>
